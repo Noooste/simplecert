@@ -9,10 +9,10 @@
 package main
 
 import (
+	http "github.com/Noooste/fhttp"
 	"log"
-	"net/http"
 
-	"github.com/foomo/simplecert"
+	"github.com/Noooste/simplecert"
 )
 
 // This example demonstrates how spin up a simple HTTPS webserver for local development, with a locally trusted certificate.

@@ -1,4 +1,4 @@
-module github.com/foomo/simplecert
+module github.com/Noooste/simplecert
 
 go 1.13
 
@@ -8,6 +8,9 @@ require (
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.6 // indirect
 	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
 	github.com/Azure/go-autorest/autorest/validation v0.3.1 // indirect
+	github.com/Noooste/fhttp v1.0.7
+	github.com/Noooste/tlsconfig v0.0.0-20230212141121-4bd5eb9d3fd4
+	github.com/Noooste/utls v1.1.2
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v1.0.1 // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.869 // indirect
 	github.com/aws/aws-sdk-go v1.36.29 // indirect
@@ -16,7 +19,6 @@ require (
 	github.com/cpu/goacmedns v0.1.1 // indirect
 	github.com/deepmap/oapi-codegen v1.4.2 // indirect
 	github.com/exoscale/egoscale v0.40.0 // indirect
-	github.com/foomo/tlsconfig v0.0.0-20180418120404-b67861b076c9
 	github.com/go-acme/lego/v4 v4.1.3
 	github.com/go-errors/errors v1.1.1 // indirect
 	github.com/go-resty/resty/v2 v2.4.0 // indirect
@@ -40,10 +42,7 @@ require (
 	github.com/transip/gotransip/v6 v6.5.0 // indirect
 	github.com/vultr/govultr v1.1.1 // indirect
 	go.uber.org/ratelimit v0.1.0 // indirect
-	golang.org/x/net v0.0.0-20210119194325-5f4716e94777 // indirect
 	golang.org/x/oauth2 v0.0.0-20210113205817-d3ed898aa8a3 // indirect
-	golang.org/x/sys v0.0.0-20210119212857-b64e53b001e4 // indirect
-	golang.org/x/text v0.3.5 // indirect
 	google.golang.org/genproto v0.0.0-20210119180700-e258113e47cc // indirect
 	google.golang.org/grpc v1.35.0 // indirect
 	gopkg.in/ini.v1 v1.62.0 // indirect

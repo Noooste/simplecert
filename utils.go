@@ -9,15 +9,15 @@
 package simplecert
 
 import (
-	"crypto/tls"
 	"fmt"
+	"github.com/Noooste/fhttp"
+	"github.com/Noooste/utls"
 	"log"
-	"net/http"
 	"os"
 	"os/exec"
 	"strings"
 
-	"github.com/foomo/tlsconfig"
+	"github.com/Noooste/tlsconfig"
 )
 
 // internal date of the backup to allow restoring in case of an error

@@ -11,13 +11,13 @@ package main
 import (
 	"context"
 	"fmt"
+	http "github.com/Noooste/fhttp"
 	"log"
-	"net/http"
 	"os"
 	"time"
 
-	"github.com/foomo/simplecert"
-	"github.com/foomo/tlsconfig"
+	"github.com/Noooste/simplecert"
+	"github.com/Noooste/tlsconfig"
 )
 
 type Handler struct{}

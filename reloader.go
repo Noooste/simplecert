@@ -9,7 +9,7 @@
 package simplecert
 
 import (
-	"crypto/tls"
+	"github.com/Noooste/utls"
 	"log"
 	"os"
 	"os/signal"
