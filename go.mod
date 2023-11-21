@@ -8,8 +8,8 @@ require (
 	github.com/Azure/go-autorest/autorest/azure/auth v0.5.6 // indirect
 	github.com/Azure/go-autorest/autorest/to v0.4.0 // indirect
 	github.com/Azure/go-autorest/autorest/validation v0.3.1 // indirect
-	github.com/Noooste/fhttp v1.0.7
-	github.com/Noooste/tlsconfig v0.0.0-20230212141121-4bd5eb9d3fd4
+	github.com/Noooste/fhttp v1.0.6
+	github.com/Noooste/tlsconfig v1.0.0
 	github.com/Noooste/utls v1.1.2
 	github.com/akamai/AkamaiOPEN-edgegrid-golang v1.0.1 // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.869 // indirect
